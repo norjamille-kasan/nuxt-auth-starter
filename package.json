@@ -1,0 +1,38 @@
+{
+    "name": "nuxt-app",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "nuxt build",
+        "dev": "nuxt dev",
+        "generate": "nuxt generate",
+        "preview": "nuxt preview",
+        "postinstall": "nuxt prepare",
+        "db-push": "drizzle-kit push:mysql",
+        "db-gen": "drizzle-kit generate:mysql"
+    },
+    "dependencies": {
+        "@lucia-auth/adapter-drizzle": "^1.0.7",
+        "@vueuse/core": "^10.9.0",
+        "class-variance-authority": "^0.7.0",
+        "clsx": "^2.1.0",
+        "drizzle-orm": "^0.30.8",
+        "lucia": "^3.1.1",
+        "lucide-vue-next": "^0.372.0",
+        "mysql2": "^3.9.6",
+        "nuxt": "^3.11.2",
+        "oslo": "^1.2.0",
+        "radix-vue": "^1.7.1",
+        "shadcn-nuxt": "^0.10.2",
+        "tailwind-merge": "^2.3.0",
+        "tailwindcss-animate": "^1.0.7",
+        "vue": "^3.4.21",
+        "vue-router": "^4.3.0"
+    },
+    "devDependencies": {
+        "@nuxtjs/google-fonts": "^3.2.0",
+        "@nuxtjs/tailwindcss": "^6.12.0",
+        "drizzle-kit": "^0.20.17",
+        "typescript": "^5.4.5"
+    }
+}
